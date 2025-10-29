@@ -46,12 +46,21 @@ def get_business_links(driver):
         page_start += 1
 
 def check_saved_links():
-    with open('yelp_business_data.txt', 'r', encoding='utf-8') as file:
+    """
+    Save new unique links to file without touching the saved ones.
+    """
+    file_name = 'yelp_business_data.txt'
+    if not os.path.exists(file_name):
+        open(file_name, 'w', encoding='utf-8').close()
+
+
+    with open(file_name, 'r', encoding='utf-8') as file:
         saved_links = [link.strip() for link in file.readlines()]
         return saved_links
 
 def save_category_links(link):
-    with open('yelp_business_data.txt', 'a', encoding='utf-8') as file:
+    file_name = 'yelp_business_data.txt'
+    with open(file_name, 'a', encoding='utf-8') as file:
         file.write(str(link) + '\n')
 
 def read_urls():
@@ -84,7 +93,6 @@ def save_to_csv(row):
 
 
 def main():
-    open('yelp_business_data.txt', 'w', encoding='utf-8').close()
     driver = browser_setup()
     get_business_links(driver)
     links = read_urls()
