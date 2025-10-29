@@ -1,3 +1,0 @@
-https://www.yelp.com/adredir?ad_business_id=Aapgx3LzavPPp1g1KXW8uQ&campaign_id=212670200&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fbetter-than-sweet-san-francisco&request_id=1b572cc9c74ee95a&signature=37941a0df69c958f9a470cbc42dad45f2103a5c03b854bb35115e44f7c076179&slot=0
-https://www.yelp.com/adredir?ad_business_id=JA1DjwFEJ97PrsqA4QKPWA&campaign_id=210274275&click_origin=search_results&placement=vertical_0&placement_slot=0&redirect_url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fhalal-city-san-francisco&request_id=1b572cc9c74ee95a&signature=f8123a6c46024122bc74e4d72f41428aadf0c31f86b93aa402ea20f41d7ccbdf&slot=1
-https://www.yelp.com/biz/bottega-san-francisco-2?osq=Restaurants
